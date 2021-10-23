@@ -1,0 +1,55 @@
+# bootchecker rc file, 
+# SA part, System team.
+
+on early-init
+    #Read ahead system/fonts and system/framework
+    readahead /system/framework --fully
+
+service bootchecker /system/bin/bootchecker
+    class late_start
+    user system
+    group system log wakelock
+    capabilities BLOCK_SUSPEND
+    oneshot
+
+on property:init.svc.zygote=restarting
+    write /dev/freezer/olaf/freezer.state THAWED
+    write /dev/freezer/frozen/freezer.state THAWED
+    write /dev/freezer/abnormal/freezer.state THAWED
+    restart bootchecker
+
+# FDE
+on property:ro.crypto.type=block && property:dev.bootcomplete=1 && property:sys.boot.end_package=0
+    softdog 1000
+
+# FBE
+on property:ro.crypto.type=file && property:dev.bootcomplete=1 && property:sys.boot.end_package=0
+    softdog 100
+
+on property:init.svc.zygote=stopping
+    write /dev/freezer/olaf/freezer.state THAWED
+    write /dev/freezer/frozen/freezer.state THAWED
+    write /dev/freezer/abnormal/freezer.state THAWED
+
+on property:sys.readahead.inputmethod=1
+    readahead /system/app/SamsungIMEv3.5/oat/arm64/SamsungIMEv3.5.odex --fully
+    readahead /system/app/SamsungIMEv3.5/SamsungIMEv3.5.apk --fully
+    readahead /system/app/SamsungIMEv3.5MASS/SamsungIMEv3.5MASS.apk --fully
+    readahead /system/app/HoneyBoard/oat/arm64/HoneyBoard.odex --fully
+    readahead /system/app/HoneyBoard/oat/arm64/HoneyBoard.vdex --fully
+    readahead /system/app/HoneyBoard/oat/arm/HoneyBoard.odex --fully
+    readahead /system/app/HoneyBoard/oat/arm/HoneyBoard.vdex --fully
+    readahead /system/app/HoneyBoard/HoneyBoard.apk  --fully
+    readahead /system/app/HoneyBoardJPN/oat/arm64/HoneyBoardJPN.odex --fully
+    readahead /system/app/HoneyBoardJPN/oat/arm64/HoneyBoardJPN.vdex --fully
+    readahead /system/app/HoneyBoardJPN/HoneyBoardJPN.apk --fully
+    readahead /system/app/HoneyBoardDCM/oat/arm64/HoneyBoardDCM.odex --fully
+    readahead /system/app/HoneyBoardDCM/oat/arm64/HoneyBoardDCM.vdex --fully
+    readahead /system/app/HoneyBoardDCM/HoneyBoardDCM.apk --fully
+    readahead /system/app/IceCone/IceCone.apk  --fully
+    setprop sys.readahead.inputmethod 0
+
+on property:sys.readahead.contacts=1
+    readahead /system/priv-app/SamsungContacts/SamsungContacts.apk --fully
+    readahead /data/dalvik-cache/arm64/system@priv-app@SamsungContacts@SamsungContacts.apk@classes.dex --fully
+    setprop sys.readahead.contacts 0

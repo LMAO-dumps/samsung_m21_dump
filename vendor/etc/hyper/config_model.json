@@ -1,0 +1,14 @@
+{
+  "Hints": [
+    {
+      "Hint": "AMS_APP_LAUNCH_M",
+      "Duration": "5000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "100#"
+        }
+      ]
+    }
+  ]
+}

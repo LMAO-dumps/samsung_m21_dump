@@ -1,0 +1,17 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+dtbo=dtbo.img
+dt=dtb.img
+kernel_size=28368908
+ramdisk_size=15918044
+dtb_offset=0x00000000
+dtb_size=135212
+base_addr=0x10000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0xf2a3d800
+cmd_line='androidboot.selinux=permissive androidboot.selinux=permissive loop.max_part=7'
+board="SRPSL26A003RU"
+format=gzip

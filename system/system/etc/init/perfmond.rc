@@ -1,0 +1,23 @@
+service perfmond /system/bin/perfmond
+    class core
+    user system
+    group root readproc
+    critical
+    socket perfmond seqpacket 0660 system system
+    socket perfmon_send seqpacket 0660 system system
+
+# ATRACE START
+on property:debug.perfmond.atrace=1
+    exec u:r:shell:s0 -- /system/bin/sh /system/bin/init.perfmond_atrace.sh
+
+# ATRACE STOP
+on property:debug.perfmond.atrace=2
+    exec u:r:shell:s0 -- /system/bin/sh /system/bin/init.perfmond_atrace.sh
+
+# ATRACE DUMP
+on property:debug.perfmond.atrace=3
+    exec u:r:shell:s0 -- /system/bin/sh /system/bin/init.perfmond_atrace.sh
+	copy /data/local/traces/atrace_temp.log /data/local/traces/atrace.log
+	rm /data/local/traces/atrace_temp.log
+    chown system shell /data/local/traces/atrace.log
+    chmod 0664 /data/local/traces/atrace.log

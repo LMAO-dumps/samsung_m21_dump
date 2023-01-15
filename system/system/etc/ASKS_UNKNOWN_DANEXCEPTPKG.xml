@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20220701"/>
+<LIST>
+    <package name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc02f3c153ede89b1f7bc0ff1c5534bf043694c9b52d641c184955a65dfb128fcb">
+        <HASH value="a674b2a6c8ee4fb0aff6d39ade8c05e2e265bb95eb9d3cab149c36f0d06fb51a"/>
+        <HASH value="1f7d08bbb91ebb1d1de8fe3294eb485f559180008219e5ccf395a3956ed55751"/>
+        <HASH value="effaf31f34011762ded3f5a2d9e0e6d39192ee9b2c9e7e3cc2108751babaeaf2"/>
+        <HASH value="85b6c017ae64ae383b5e7cc8947388b7dd1c7e39e939a5029139c0a68a8a88af"/>
+        <HASH value="643fc699a598ae903102ee5b0fef8470edc0a5e6bacb9d3a228c2f3ad6112f04"/>
+        <HASH value="bc5f714818d3586d04940132563e7b0da9a43031b2ecbce9affac9a4bb09d183"/>
+    </package>
+    <package name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dce66d8912f158cad056775a7aa709e154f2fa43fbc60b66fcd0888f178ec84fbe">
+        <HASH value="b8e1826ba718399e5d3ba73114dc87f50b78053d7e25a5c6cc134b8e7efe53a7"/>
+        <HASH value="7d2d2d6376dc4b9ddc11d595bec9b61108f6ba68828956c16541cf2e0cfaec39"/>
+        <HASH value="2354f90bf507c708a1bbb34644a1d8f11ae7b5ee24982fa373c790474e77ccc4"/>
+        <HASH value="befb4337251566c8d53ae05659f05ae54c15030e163665048da6cc803a490585"/>
+        <HASH value="0316076cede8ad83fde170806a187f671aa23c81f28fa10157c13c2c15905ace"/>
+        <HASH value="0e3b75e3999fcc2bdcb85149e7010876be97d808f3397d38e216e2214d07adff"/>
+    </package>
+    <package name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc0dc55c18b3cf2974d71a0440a7d64e2f8ea10a171ad76cd68eded988da53a898">
+        <HASH value="505b90ea3e574e073401c6f3212696c781849fb795289fd822e7874b2d8590c0"/>
+        <HASH value="4135334db42d0d4e25649e5052280429788b7f84f93187103aa4c3d6dc159140"/>
+        <HASH value="8a910b3942b484f26a80042b5ded71b9f86977b3a3c0a3bc6b3037001307fde2"/>
+        <HASH value="954f10b3d6417ac632e63683f4d8020d32242113f3339592ba6dd7f4d699655f"/>
+        <HASH value="fbe0758ebf52677c1e80a23376b02fd220de6d0ce7b70e72a4f8aaf2c3f52787"/>
+        <HASH value="d7817b7d250ba20e15e5d502aacdd7e5a46258b796c29a77b92eb98e08fef459"/>
+    </package>
+    <package name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc7d2a396c8a69d72b564f530f9e88f4146b66dc7686acb71d8c1b4f14cf979c89">
+        <HASH value="5eadfbd5aadf334ef7a54abde93029093cb021d3d63f0d13b2c44d4e176aaee6"/>
+        <HASH value="900c2ec8d1f436c31c83e3849d05618a9b1fb23c71ea3694ac947a91d4923f8e"/>
+        <HASH value="2e534bd8731fcac99ffd033646fba05632e04f43bec8c3cba7483cd90c8eb401"/>
+        <HASH value="4b5713f5571d3db9c43dd065cc538b6a38ba379f759e6c03109b9fb6603bdf69"/>
+        <HASH value="38492dbd6561fd51b59a43e3a83751752a79670c275300a3c3723dab9fc64db8"/>
+        <HASH value="4b7fa2abb60a5b8333b0ffcecfb75260b3da57cd09d68390a0548d911ab1398e"/>
+    </package>
+    <package name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc28978e89211bb611aa1e5ba983793922d1d0ebb3d863844f30a0ae66bbb86188">
+        <HASH value="237b819627076bac1f0c7a7cba5699b53dcdc69c0c4a0a861fed70031d7c345c"/>
+        <HASH value="4f8754bba8a23bb72a2e9969fc2b4db48c55ac542a50de71c6bba7889966621f"/>
+        <HASH value="859a746b9023a07b5fea92fb1cfae159b834837deb07b6b8381b571de35fda37"/>
+        <HASH value="a3610270463a7a81c129dceea9b6fa52ca6ea1cf8e1004da811d502e74d2c0fa"/>
+        <HASH value="e57b1c1652a6263f2f20f971b941ea362e952f5cf09476f19572d4830ce160b8"/>
+        <HASH value="3fb0e9a0f2aca8ccb0ef65cadfa25983cfb5d2f77e91a71f9b5cd74844531404"/>
+    </package>
+    <package name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc5b84d04021b1daf1b6fdc38d42438ec8b09d3d47dc2877f0342ba930c98f2f82">
+        <HASH value="e83fd62a46655e46079a469d51ab83477703bec1304ddfc64b31ca27417a9cae"/>
+        <HASH value="6f924d9081be22e6f1b89e2cefa60816285fb4c7598d0239a0dfdec6b8cb0f56"/>
+        <HASH value="1988a41af0f5e7d85036bb8e36e9b5026ac93654306786be85cc63954bec5703"/>
+        <HASH value="79ac4e5a71931f8cb6773aae5e903277b1af5f3c98eef8ec7bcc9db9884223d8"/>
+        <HASH value="f1bb560405bc25fffe45edce00fb6820580bd31975b7599900544497772426e0"/>
+        <HASH value="bf7dd1783a4380f31d397cb07091ae3f9d20f8e7164dd1d782cadc75642852c4"/>
+    </package>
+</LIST>

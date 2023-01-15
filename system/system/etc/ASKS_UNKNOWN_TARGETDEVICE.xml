@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20220615"/>
+<LIST>
+    <TARGET value="SM-A325N">
+        <DEVICE name="NA"/>
+    </TARGET>
+    <CERTTARGET value="SM-G981N">
+        <DEVICE name="NA"/>
+    </CERTTARGET>
+    <CERTTARGET value="SM-G986N">
+        <DEVICE name="NA"/>
+    </CERTTARGET>
+    <CERTTARGET value="SM-G988N">
+        <DEVICE name="NA"/>
+    </CERTTARGET>
+    <CERTTARGET value="SM-A325N">
+        <DEVICE name="NA"/>
+    </CERTTARGET>
+</LIST>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20220713"/>
+<LIST>
+    <CERT value="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc">
+        <package name="02f3c153ede89b1f7bc0ff1c5534bf043694c9b52d641c184955a65dfb128fcb"/>
+        <package name="e66d8912f158cad056775a7aa709e154f2fa43fbc60b66fcd0888f178ec84fbe"/>
+        <package name="0dc55c18b3cf2974d71a0440a7d64e2f8ea10a171ad76cd68eded988da53a898"/>
+        <package name="7d2a396c8a69d72b564f530f9e88f4146b66dc7686acb71d8c1b4f14cf979c89"/>
+        <package name="28978e89211bb611aa1e5ba983793922d1d0ebb3d863844f30a0ae66bbb86188"/>
+        <package name="5b84d04021b1daf1b6fdc38d42438ec8b09d3d47dc2877f0342ba930c98f2f82"/>
+    </CERT>
+    <CERT value="c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8">
+        <package name="ALL"/>
+    </CERT>
+    <CERT value="8ad127abae8285b582ea36745f220ab8fe397ffb3b068df19ca22d122c7b3b86">
+        <package name="ALL"/>
+    </CERT>
+    <CERT value="ce7b2b47ae2b7552c8f92cc29124279883041fb623a5f194a82c9bf15d492aa0">
+        <package name="ALL"/>
+    </CERT>
+    <CERT value="28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd">
+        <package name="ALL"/>
+    </CERT>
+    <CERT value="4d69278cffdb6714d5fa51cfecc7adb1db20ab8efe43f7da38ccbe6d02823357">
+        <package name="ALL"/>
+    </CERT>
+    <CERT value="465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e">
+        <package name="ALL"/>
+    </CERT>
+    <CERT value="e1dbadce60dc080d15b58a014b0dcf9400e24de23fa00b287a5a982bfebda2ee">
+        <package name="ALL"/>
+    </CERT>
+</LIST>
